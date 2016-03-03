@@ -1,3 +1,23 @@
+.navbar-default{
+  background-color: #FF4081;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle  {
+  background-color: #2196F3;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:hover  {
+  background-color: #2196F3;
+}
+
+.navbar-default .navbar-toggle .icon-bar  {
+  background-color: white;
+}
+
 body { 
   padding-top: 70px; 
 }
@@ -12,8 +32,8 @@ hr.no-margin  {
 
 .contenido  {
   position: relative;
-  background-color: #FF5722;
-  color: white;
+  background-color: #BBDEFB;
+  color: black;
   padding: 10px;
   height: 700px;
   margin-bottom: 20px;
@@ -23,7 +43,7 @@ hr.no-margin  {
 .contenido h3 {
   text-transform: uppercase;
   padding: 5px;
-  color: #727272;
+  color: white;
 }
 
 .contenido span {
@@ -38,7 +58,7 @@ hr.no-margin  {
 
 @media (max-width: 767px) {
   #coursera-menu  {
-    background-color: #3F51B5;
+    background-color: #2196F3;
     color: white;
   }
   #coursera-menu .navbar-nav li a  {
