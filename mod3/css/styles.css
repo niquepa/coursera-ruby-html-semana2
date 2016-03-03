@@ -13,6 +13,12 @@ hr.no-margin  {
   margin: 0px;
 }
 
+.contenido  {
+  background-color: #FF5722;
+  color: white;
+  padding: 10px;
+}
+
 
 @media (max-width: 767px) {
   #coursera-menu  {
